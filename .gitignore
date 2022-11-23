@@ -1,0 +1,31 @@
+.idea
+.vscode
+!.vscode/launch.json
+.DS_Store
+TestEnvironment.php
+/logs/
+composer.lock
+
+###> symfony/framework-bundle ###
+/.env
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+.coverage
+###< symfony/phpunit-bridge ###
+
+###> squizlabs/php_codesniffer ###
+.phpcs-cache
+###< squizlabs/php_codesniffer ###
+
+###> junit reports ###
+*junit*.xml
+###< junit reports ###
