@@ -18,6 +18,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 
 final class ConsulServiceFactory implements ConsulServiceFactoryInterface
 {
+    /** @var array<class-string, class-string> */
     protected array $services = [
         Agent\AgentInterface::class     => Agent\Agent::class,
         Catalog\CatalogInterface::class => Catalog\Catalog::class,

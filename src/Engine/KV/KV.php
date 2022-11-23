@@ -13,8 +13,8 @@ final class KV extends AbstractEngine implements KVInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $key     KV Key.
-     * @param array  $options Request options.
+     * @param string               $key     KV Key.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -33,7 +33,7 @@ final class KV extends AbstractEngine implements KVInterface
      *
      * @param string                                        $key     KV Key.
      * @param \Stringable|string|integer|float|boolean|null $value   KV Value.
-     * @param array                                         $options Request options.
+     * @param array<string, mixed>                          $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -50,8 +50,8 @@ final class KV extends AbstractEngine implements KVInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $key     KV Key.
-     * @param array  $options Request options.
+     * @param string               $key     KV Key.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */

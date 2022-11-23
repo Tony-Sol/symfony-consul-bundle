@@ -3,6 +3,7 @@
 !.vscode/launch.json
 .DS_Store
 TestEnvironment.php
+/docker/
 /logs/
 composer.lock
 

@@ -12,8 +12,8 @@ interface HealthInterface extends AbstractEngineInterface
     /**
      * Execute Node Consul Health
      *
-     * @param string $node    Health node.
-     * @param array  $options Request options.
+     * @param string               $node    Health node.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -22,8 +22,8 @@ interface HealthInterface extends AbstractEngineInterface
     /**
      * Execute Check Consul Health
      *
-     * @param string $service Health service.
-     * @param array  $options Request options.
+     * @param string               $service Health service.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -32,8 +32,8 @@ interface HealthInterface extends AbstractEngineInterface
     /**
      * Execute Service Consul Health
      *
-     * @param string $service Health service.
-     * @param array  $options Request options.
+     * @param string               $service Health service.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -42,8 +42,8 @@ interface HealthInterface extends AbstractEngineInterface
     /**
      * Execute State Consul Health
      *
-     * @param string $state   Health state.
-     * @param array  $options Request options.
+     * @param string               $state   Health state.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */

@@ -11,8 +11,8 @@ interface ClientInterface
     /**
      * Execute GET requests
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -21,8 +21,8 @@ interface ClientInterface
     /**
      * Execute HEAD requests
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -31,8 +31,8 @@ interface ClientInterface
     /**
      * Execute DELETE requests
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -41,8 +41,8 @@ interface ClientInterface
     /**
      * Execute PUT requests
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -51,8 +51,8 @@ interface ClientInterface
     /**
      * Execute PATCH requests
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -61,8 +61,8 @@ interface ClientInterface
     /**
      * Execute POST requests
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -71,8 +71,8 @@ interface ClientInterface
     /**
      * Execute OPTIONS requests
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */

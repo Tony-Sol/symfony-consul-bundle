@@ -26,7 +26,7 @@ interface AgentInterface extends AbstractEngineInterface
     /**
      * Execute Members Consul Agent
      *
-     * @param array $options Request options.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -42,8 +42,8 @@ interface AgentInterface extends AbstractEngineInterface
     /**
      * Execute Join Consul Agent
      *
-     * @param string $address Join address.
-     * @param array  $options Request options.
+     * @param string               $address Join address.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -79,8 +79,8 @@ interface AgentInterface extends AbstractEngineInterface
     /**
      * Execute PassCheck Consul Agent
      *
-     * @param string $checkId Check ID.
-     * @param array  $options Request options.
+     * @param string               $checkId Check ID.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -89,8 +89,8 @@ interface AgentInterface extends AbstractEngineInterface
     /**
      * Execute WarningCheck Consul Agent
      *
-     * @param string $checkId Check ID.
-     * @param array  $options Request options.
+     * @param string               $checkId Check ID.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -99,8 +99,8 @@ interface AgentInterface extends AbstractEngineInterface
     /**
      * Execute FailCheck Consul Agent
      *
-     * @param string $checkId Check ID.
-     * @param array  $options Request options.
+     * @param string               $checkId Check ID.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */

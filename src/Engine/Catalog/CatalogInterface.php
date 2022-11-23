@@ -37,7 +37,7 @@ interface CatalogInterface extends AbstractEngineInterface
     /**
      * Execute Nodes Consul Catalog
      *
-     * @param array $options Request options.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -46,8 +46,8 @@ interface CatalogInterface extends AbstractEngineInterface
     /**
      * Execute Node Consul Catalog
      *
-     * @param string $node    Catalog node.
-     * @param array  $options Request options.
+     * @param string               $node    Catalog node.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -56,7 +56,7 @@ interface CatalogInterface extends AbstractEngineInterface
     /**
      * Execute Services Consul Catalog
      *
-     * @param array $options Request options.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -65,8 +65,8 @@ interface CatalogInterface extends AbstractEngineInterface
     /**
      * Execute Service Consul Catalog
      *
-     * @param string $service Catalog service.
-     * @param array  $options Request options.
+     * @param string               $service Catalog service.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */

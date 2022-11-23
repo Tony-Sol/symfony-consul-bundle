@@ -12,8 +12,8 @@ final class Session extends AbstractEngine implements SessionInterface
     /**
      * {@inheritdoc}
      *
-     * @param mixed $body    Session body.
-     * @param array $options Request options.
+     * @param mixed                $body    Session body.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -30,8 +30,8 @@ final class Session extends AbstractEngine implements SessionInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $sessionId Session ID.
-     * @param array  $options   Request options.
+     * @param string               $sessionId Session ID.
+     * @param array<string, mixed> $options   Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -47,8 +47,8 @@ final class Session extends AbstractEngine implements SessionInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $sessionId Session ID.
-     * @param array  $options   Request options.
+     * @param string               $sessionId Session ID.
+     * @param array<string, mixed> $options   Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -64,8 +64,8 @@ final class Session extends AbstractEngine implements SessionInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $node    Session node.
-     * @param array  $options Request options.
+     * @param string               $node    Session node.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -81,7 +81,7 @@ final class Session extends AbstractEngine implements SessionInterface
     /**
      * {@inheritdoc}
      *
-     * @param array $options Request options.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -97,8 +97,8 @@ final class Session extends AbstractEngine implements SessionInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $sessionId Session ID.
-     * @param array  $options   Request options.
+     * @param string               $sessionId Session ID.
+     * @param array<string, mixed> $options   Request options.
      *
      * @return ConsulResponseInterface
      */

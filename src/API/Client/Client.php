@@ -30,8 +30,8 @@ class Client implements ClientInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return Response\ConsulResponseInterface
      */
@@ -43,8 +43,8 @@ class Client implements ClientInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return Response\ConsulResponseInterface
      */
@@ -56,8 +56,8 @@ class Client implements ClientInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return Response\ConsulResponseInterface
      */
@@ -69,8 +69,8 @@ class Client implements ClientInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return Response\ConsulResponseInterface
      */
@@ -82,8 +82,8 @@ class Client implements ClientInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return Response\ConsulResponseInterface
      */
@@ -95,8 +95,8 @@ class Client implements ClientInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return Response\ConsulResponseInterface
      */
@@ -108,8 +108,8 @@ class Client implements ClientInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @return Response\ConsulResponseInterface
      */
@@ -121,9 +121,9 @@ class Client implements ClientInterface
     /**
      * Do request
      *
-     * @param string $method  HTTP method.
-     * @param string $url     Endpoint.
-     * @param array  $options Request options.
+     * @param string               $method  HTTP method.
+     * @param string               $url     Endpoint.
+     * @param array<string, mixed> $options Request options.
      *
      * @throws Exception\ServerException
      * @throws Exception\ClientException

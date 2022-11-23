@@ -13,8 +13,8 @@ final class TXN extends AbstractEngine implements TXNInterface
     /**
      * {@inheritdoc}
      *
-     * @param array<int, array> $operations TXN operations.
-     * @param array             $options    Request options.
+     * @param array<int, array<string, mixed>> $operations TXN operations.
+     * @param array<string, mixed>             $options    Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -35,7 +35,7 @@ final class TXN extends AbstractEngine implements TXNInterface
     /**
      * Validate Transaction Available Operations
      *
-     * @param array<int, array> $operations TXN operations.
+     * @param array<int, array<string, mixed>> $operations TXN operations.
      *
      * @throws InvalidOperations
      *

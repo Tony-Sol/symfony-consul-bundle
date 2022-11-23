@@ -32,7 +32,7 @@ final class Agent extends AbstractEngine implements AgentInterface
     /**
      * {@inheritdoc}
      *
-     * @param array $options Request options.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -58,8 +58,8 @@ final class Agent extends AbstractEngine implements AgentInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $address Join address.
-     * @param array  $options Request options.
+     * @param string               $address Join address.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -112,8 +112,8 @@ final class Agent extends AbstractEngine implements AgentInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $checkId Check ID.
-     * @param array  $options Request options.
+     * @param string               $checkId Check ID.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -129,8 +129,8 @@ final class Agent extends AbstractEngine implements AgentInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $checkId Check ID.
-     * @param array  $options Request options.
+     * @param string               $checkId Check ID.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -146,8 +146,8 @@ final class Agent extends AbstractEngine implements AgentInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $checkId Check ID.
-     * @param array  $options Request options.
+     * @param string               $checkId Check ID.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */

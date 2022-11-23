@@ -12,8 +12,8 @@ interface TXNInterface extends AbstractEngineInterface
     /**
      * Execute Consul TXN request
      *
-     * @param array<int, array> $operations TXN operations.
-     * @param array             $options    Request options.
+     * @param array<int, array<string, mixed>> $operations TXN operations.
+     * @param array<string, mixed>             $options    Request options.
      *
      * @return ConsulResponseInterface
      */

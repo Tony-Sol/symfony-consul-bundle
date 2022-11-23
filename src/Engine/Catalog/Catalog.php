@@ -49,7 +49,7 @@ final class Catalog extends AbstractEngine implements CatalogInterface
     /**
      * {@inheritdoc}
      *
-     * @param array $options Request options.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -65,8 +65,8 @@ final class Catalog extends AbstractEngine implements CatalogInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $node    Catalog node.
-     * @param array  $options Request options.
+     * @param string               $node    Catalog node.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -82,7 +82,7 @@ final class Catalog extends AbstractEngine implements CatalogInterface
     /**
      * {@inheritdoc}
      *
-     * @param array $options Request options.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */
@@ -98,8 +98,8 @@ final class Catalog extends AbstractEngine implements CatalogInterface
     /**
      * {@inheritdoc}
      *
-     * @param string $service Catalog service.
-     * @param array  $options Request options.
+     * @param string               $service Catalog service.
+     * @param array<string, mixed> $options Request options.
      *
      * @return ConsulResponseInterface
      */

@@ -34,11 +34,11 @@ abstract class AbstractEngine implements AbstractEngineInterface
     /**
      * Resolve request opetions
      *
-     * @param array $options          Passed options.
-     * @param array $availableOptions Available options.
-     * @param array $defaultOptions   Default options.
+     * @param array<string, mixed> $options          Passed options.
+     * @param string[]             $availableOptions Available options.
+     * @param array<string, mixed> $defaultOptions   Default options.
      *
-     * @return array
+     * @return array<string, mixed>
      */
     protected function resolveOptions(
         array $options,
